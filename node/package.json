@@ -1,0 +1,27 @@
+{
+  "name": "ldc-single-process-sfu-toy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install": "node -e \"console.log('Skipping native addon build during npm install. Run npm run build:native after Visual Studio C++ Build Tools and Windows SDK are ready.')\"",
+    "build": "tsc",
+    "doctor:native": "node scripts/check-native-deps.mjs",
+    "build:native": "node-gyp rebuild",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-addon-api": "^8.5.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.2",
+    "@types/ws": "^8.18.1",
+    "node-gyp": "^12.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

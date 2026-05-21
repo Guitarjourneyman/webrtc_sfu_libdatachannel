@@ -1,0 +1,5 @@
+C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\src\addon\ldc_sfu_node.cpp;C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\build\Release\obj\ldc_sfu_node\src\addon\ldc_sfu_node.obj
+C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\src\encoded_chunk.cpp;C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\build\Release\obj\ldc_sfu_node\src\encoded_chunk.obj
+C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\src\h264_rtp_packetizer.cpp;C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\build\Release\obj\ldc_sfu_node\src\h264_rtp_packetizer.obj
+C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\src\native_sfu.cpp;C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\build\Release\obj\ldc_sfu_node\src\native_sfu.obj
+C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\node_modules\node-gyp\src\win_delay_load_hook.cc;C:\VScode\webCodecs\my-webcodec_mediasoup\libdatachannel\node\build\Release\obj\ldc_sfu_node\win_delay_load_hook.obj

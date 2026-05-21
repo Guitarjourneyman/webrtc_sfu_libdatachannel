@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>libdatachannel WebCodecs SFU Toy</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="toolbar">
+        <h1>libdatachannel WebCodecs SFU Toy</h1>
+        <button id="publishButton">Publish WebCodecs</button>
+        <button id="viewButton">Create Viewer</button>
+      </section>
+
+      <section class="videos">
+        <figure>
+          <video id="localVideo" muted playsinline autoplay></video>
+          <figcaption>Publisher preview</figcaption>
+        </figure>
+        <figure>
+          <video id="remoteVideo" muted playsinline autoplay></video>
+          <figcaption>Viewer track</figcaption>
+        </figure>
+      </section>
+
+      <section class="stats">
+        <div><span>Chunks</span><strong id="chunkCount">0</strong></div>
+        <div><span>Signal</span><strong id="signalState">idle</strong></div>
+        <div><span>Ingest</span><strong id="ingestState">idle</strong></div>
+      </section>
+
+      <pre id="log"></pre>
+    </main>
+    <script type="module" src="/client.js"></script>
+  </body>
+</html>
+
